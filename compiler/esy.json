@@ -33,9 +33,9 @@
   "dependencies": {
     "@grain/binaryen.ml": ">= 0.17.0 < 0.18.0",
     "@opam/cmdliner": ">= 1.0.2",
-    "@opam/dune": ">= 2.0.0 < 3.0.0",
-    "@opam/dune-build-info": ">= 2.0.0 < 3.0.0",
-    "@opam/dune-configurator": ">= 2.0.0 < 3.0.0",
+    "@opam/dune": ">= 3.0.0 < 4.0.0",
+    "@opam/dune-build-info": ">= 3.0.0 < 4.0.0",
+    "@opam/dune-configurator": ">= 3.0.0 < 4.0.0",
     "@opam/fp": "0.0.1",
     "@opam/fs": "0.0.2",
     "@opam/menhir": "20211125",
@@ -44,25 +44,27 @@
     "@opam/ppx_deriving_cmdliner": ">= 0.6.0",
     "@opam/ppx_deriving_yojson": ">= 3.5.2",
     "@opam/ppx_sexp_conv": ">= 0.14.0",
-    "@opam/reason": ">= 3.6.2",
+    "@opam/reason": ">= 3.8.0",
     "@opam/sexplib": ">= 0.14.0",
     "@opam/uri": ">= 4.2.0 < 5.0.0",
     "@opam/utf8": "0.1.0",
     "@opam/yojson": ">= 1.7.0",
-    "ocaml": "4.12.0"
+    "ocaml": "4.14.0"
   },
   "devDependencies": {
-    "@opam/js_of_ocaml-compiler": ">= 3.11.0 < 4.0.0",
-    "@opam/ocaml-lsp-server": "1.8.3",
+    "@opam/js_of_ocaml-compiler": ">= 4.0.0 < 5.0.0",
+    "@opam/ocaml-lsp-server": "1.10.6",
     "@reason-native/rely": "^4.0.0"
   },
   "resolutions": {
-    "ocaml": "4.12.0",
-    "@opam/fp": "reasonml/reason-native:fp.opam#0ed854f986256e52e59aeecfa90e9af60f105b15",
-    "@opam/fs": "reasonml/reason-native:fs.opam#0ed854f986256e52e59aeecfa90e9af60f105b15",
-    "@opam/utf8": "reasonml/reason-native:utf8.opam#0ed854f986256e52e59aeecfa90e9af60f105b15",
-    "@reason-native/cli": "reasonml/reason-native:cli.json#0ed854f986256e52e59aeecfa90e9af60f105b15",
-    "@reason-native/rely": "reasonml/reason-native:rely.json#0ed854f986256e52e59aeecfa90e9af60f105b15"
+    "ocaml": "4.14.0",
+    "@opam/fp": "grain-lang/reason-native:fp.opam#8d2b9c3cbf1d0a4074f34116e7e92ccb00b040f6",
+    "@opam/fs": "grain-lang/reason-native:fs.opam#8d2b9c3cbf1d0a4074f34116e7e92ccb00b040f6",
+    "@opam/utf8": "grain-lang/reason-native:utf8.opam#8d2b9c3cbf1d0a4074f34116e7e92ccb00b040f6",
+    "@reason-native/cli": "grain-lang/reason-native:cli.json#8d2b9c3cbf1d0a4074f34116e7e92ccb00b040f6",
+    "@reason-native/rely": "grain-lang/reason-native:rely.json#8d2b9c3cbf1d0a4074f34116e7e92ccb00b040f6",
+    "@reason-native/pastel": "grain-lang/reason-native:pastel.json#8d2b9c3cbf1d0a4074f34116e7e92ccb00b040f6",
+    "@reason-native/file-context-printer": "grain-lang/reason-native:file-context-printer.json#8d2b9c3cbf1d0a4074f34116e7e92ccb00b040f6"
   },
   "installConfig": {
     "pnp": false
