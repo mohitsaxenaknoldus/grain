@@ -1,5 +1,5 @@
 {
-  "checksum": "87b11d5d6689e75304f808faab708ad0",
+  "checksum": "9ec8146ffff73b1c9fc9908f4f094dd2",
   "root": "@grain/compiler@link-dev:./esy.json",
   "node": {
     "yarn-pkg-config@github:esy-ocaml/yarn-pkg-config#db3a0b63883606dd57c54a7158d560d6cba8cd79@d41d8cd9": {
@@ -1010,20 +1010,20 @@
         "ocaml@4.14.0@d41d8cd9", "@opam/dune@opam:3.3.1@37a83374"
       ]
     },
-    "@opam/ocaml-lsp-server@opam:1.10.6@19b042bf": {
-      "id": "@opam/ocaml-lsp-server@opam:1.10.6@19b042bf",
+    "@opam/ocaml-lsp-server@opam:1.11.6@31f0970f": {
+      "id": "@opam/ocaml-lsp-server@opam:1.11.6@31f0970f",
       "name": "@opam/ocaml-lsp-server",
-      "version": "opam:1.10.6",
+      "version": "opam:1.11.6",
       "source": {
         "type": "install",
         "source": [
-          "archive:https://opam.ocaml.org/cache/sha256/2b/2b43b358c2198e7e52d4ec6ef764d7d0ad88b857f09fcb70150428511bfe610c#sha256:2b43b358c2198e7e52d4ec6ef764d7d0ad88b857f09fcb70150428511bfe610c",
-          "archive:https://github.com/ocaml/ocaml-lsp/releases/download/1.10.6/jsonrpc-1.10.6.tbz#sha256:2b43b358c2198e7e52d4ec6ef764d7d0ad88b857f09fcb70150428511bfe610c"
+          "archive:https://opam.ocaml.org/cache/sha256/50/50b546ced5332c4a038bcf68b65b7888cb8e61aebe102e8c80b23a4c5899bbbb#sha256:50b546ced5332c4a038bcf68b65b7888cb8e61aebe102e8c80b23a4c5899bbbb",
+          "archive:https://github.com/ocaml/ocaml-lsp/releases/download/1.11.6/jsonrpc-1.11.6.tbz#sha256:50b546ced5332c4a038bcf68b65b7888cb8e61aebe102e8c80b23a4c5899bbbb"
         ],
         "opam": {
           "name": "ocaml-lsp-server",
-          "version": "1.10.6",
-          "path": "esy.lock/opam/ocaml-lsp-server.1.10.6"
+          "version": "1.11.6",
+          "path": "esy.lock/opam/ocaml-lsp-server.1.11.6"
         }
       },
       "overrides": [],
@@ -1819,7 +1819,7 @@
       ],
       "devDependencies": [
         "@reason-native/rely@github:grain-lang/reason-native:rely.json#8d2b9c3cbf1d0a4074f34116e7e92ccb00b040f6@d41d8cd9",
-        "@opam/ocaml-lsp-server@opam:1.10.6@19b042bf",
+        "@opam/ocaml-lsp-server@opam:1.11.6@31f0970f",
         "@opam/js_of_ocaml-compiler@opam:4.0.0@e10fcdb0"
       ],
       "installConfig": { "pnp": false }

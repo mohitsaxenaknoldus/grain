@@ -53,7 +53,7 @@
   },
   "devDependencies": {
     "@opam/js_of_ocaml-compiler": ">= 4.0.0 < 5.0.0",
-    "@opam/ocaml-lsp-server": "1.10.6",
+    "@opam/ocaml-lsp-server": "1.11.6",
     "@reason-native/rely": "^4.0.0"
   },
   "resolutions": {

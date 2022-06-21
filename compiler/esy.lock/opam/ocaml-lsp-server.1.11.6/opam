@@ -25,7 +25,7 @@ depends: [
   "dune-rpc"
   "dyn"
   "stdune"
-  "fiber"
+  "fiber" {>= "3.1.1"}
   "xdg"
   "ordering"
   "dune-build-info"
@@ -53,10 +53,10 @@ build: [
 ]
 url {
   src:
-    "https://github.com/ocaml/ocaml-lsp/releases/download/1.10.6/jsonrpc-1.10.6.tbz"
+    "https://github.com/ocaml/ocaml-lsp/releases/download/1.11.6/jsonrpc-1.11.6.tbz"
   checksum: [
-    "sha256=2b43b358c2198e7e52d4ec6ef764d7d0ad88b857f09fcb70150428511bfe610c"
-    "sha512=9be122d6883938187c491b7de799847e34f20ef45da40404f6b9b3cc97993cab074bc4c673569645ee5b939488ef1d910a1154e50cd0f4b81095b1c5c239d5a1"
+    "sha256=50b546ced5332c4a038bcf68b65b7888cb8e61aebe102e8c80b23a4c5899bbbb"
+    "sha512=e7c6d07d3943b088198af383120f2e75478b84dd6077eafa0f01fc808072b9cebe667651d22e11592c1f134f5d289cccf7c58e1ad1aae6c0ce92a4eca32b1371"
   ]
 }
-x-commit-hash: "e5f78187a13299a4e7bfba895ccea4d9b2dd5265"
+x-commit-hash: "1c02a6b8c44f3858ad8c0b7c114d4f14fbf53f9c"
