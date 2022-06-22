@@ -13,7 +13,7 @@ let () = {
         // MinGW needs the -static flag passed directly to the linker,
         // to avoid needing MinGW locations in the path
         // Ref https://github.com/grain-lang/binaryen.ml#static-linking
-        ["-ccopt", "--", "-ccopt", "-static", "-mwindows"]
+        ["-fno-implicit-templates", "-ccopt", "--", "-ccopt", "-static"]
       | Some(_) => default
       | None => default
       };
